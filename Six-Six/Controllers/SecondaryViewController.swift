@@ -29,7 +29,9 @@ class SecondaryViewController: ExtendedViewController {
         guard dataTextField.text != nil else { return }
         
         if let asInt = Int(dataTextField.text!) {
-            self.dataLabel.text = String(asInt * asInt)
+            let result = Int(pow(2, CGFloat(asInt)))
+            let formatter = NumberFormatter(); formatter.numberStyle = .decimal
+            self.dataLabel.text = formatter.string(from: NSNumber(value: result))
             self.dataLabel.textColor = .label
         } else {
             self.dataLabel.text = "Please provide an integer"

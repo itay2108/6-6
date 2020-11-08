@@ -139,7 +139,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xtT-ud-Uvj">
                                 <rect key="frame" x="52" y="136" width="310" height="309.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Label Displays Integers in a power of 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBe-CE-I31">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This Label Displays 2 in the power of given integer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBe-CE-I31">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="309.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
@@ -176,7 +176,7 @@
                                     <constraint firstAttribute="height" constant="48" id="lLa-lU-Wfk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <integer key="value" value="1"/>
@@ -193,7 +193,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="activeBorderColor">
                                         <color key="value" systemColor="systemPinkColor"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Input Integer to modify"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Input Integer"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                         </subviews>
@@ -299,7 +299,7 @@
                                     <constraint firstAttribute="height" constant="48" id="Kbn-rM-2cp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <integer key="value" value="1"/>
@@ -325,7 +325,7 @@
                                     <constraint firstAttribute="height" constant="48" id="i9e-Vy-fGN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <integer key="value" value="1"/>
@@ -404,7 +404,7 @@
             <size key="intrinsicContentSize" width="153" height="21"/>
         </designable>
         <designable name="ylV-Hx-XkS">
-            <size key="intrinsicContentSize" width="207.5" height="21"/>
+            <size key="intrinsicContentSize" width="134.5" height="21"/>
         </designable>
     </designables>
     <resources>
