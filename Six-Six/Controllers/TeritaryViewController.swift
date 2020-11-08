@@ -56,7 +56,8 @@ class TeritaryViewController: ExtendedViewController {
     
     private func updateLabel() {
         if let result = calculate() {
-            dataLabel.text = String(result)
+            let formatter = NumberFormatter(); formatter.numberStyle = .decimal
+            dataLabel.text = formatter.string(from: NSNumber(value: result))
             dataLabel.textColor = .label
         } else {
             dataLabel.text = "error performing calculation, please make sure both values are of type integer"
